@@ -2,7 +2,7 @@ import typer
 
 
 def greet() -> None:
-    pass
+    typer.echo("Hello, World!")
 
 
 if __name__ == "__main__":

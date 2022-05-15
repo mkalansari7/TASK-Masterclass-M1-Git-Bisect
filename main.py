@@ -1,9 +1,9 @@
 import typer
 
 
-def greet() -> None:
+def greet(name: str) -> None:
     """Welcome to our awesome CLI app!"""
-    typer.echo("Hello, World!")
+    typer.echo(f"Hello, {name}!")
 
 
 if __name__ == "__main__":

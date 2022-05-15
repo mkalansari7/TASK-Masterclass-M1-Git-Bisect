@@ -2,6 +2,7 @@ import typer
 
 
 def greet() -> None:
+    """Welcome to our awesome CLI app!"""
     typer.echo("Hello, World!")
 
 

@@ -1,7 +1,7 @@
 import typer
 
 
-def greet(name: str) -> None:
+def greet(name: str = typer.Option(..., prompt=True)) -> None:
     """Welcome to our awesome CLI app!"""
     typer.echo(f"Hello, {name}!")
 

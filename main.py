@@ -7,4 +7,4 @@ def greet(name: str = typer.Option(..., prompt=True)) -> None:
 
 
 if __name__ == "__main__":
-    typer.run(greet)
+    typer.run(greet())

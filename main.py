@@ -1,7 +1,11 @@
 import typer
 
 
-def greet(name: str = typer.Option(..., prompt=True)) -> None:
+def greet(
+    name: str = typer.Option(
+        ..., prompt=True, help="Name for the awesome app to greet you by"
+    ),
+) -> None:
     """Welcome to our awesome CLI app!
     
     Pass in a name either by using the option, or the prompt."""

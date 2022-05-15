@@ -14,4 +14,4 @@ def greet(
 
 
 if __name__ == "__main__":
-    typer.run(greet())
+    typer.run(greet)
